@@ -4,7 +4,7 @@ import (
 	"testing"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/example/blog/x/blog/types"
+	"github.com/phanhoc/blog/x/blog/types"
 	"github.com/stretchr/testify/assert"
 )
 

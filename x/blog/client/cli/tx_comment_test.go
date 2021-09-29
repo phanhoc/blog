@@ -10,8 +10,8 @@ import (
 	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
 	"github.com/stretchr/testify/require"
 
-	"github.com/example/blog/testutil/network"
-	"github.com/example/blog/x/blog/client/cli"
+	"github.com/phanhoc/blog/testutil/network"
+	"github.com/phanhoc/blog/x/blog/client/cli"
 )
 
 func TestCreateComment(t *testing.T) {

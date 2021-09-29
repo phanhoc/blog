@@ -4,7 +4,7 @@ import (
 	"encoding/binary"
 	"github.com/cosmos/cosmos-sdk/store/prefix"
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/example/blog/x/blog/types"
+	"github.com/phanhoc/blog/x/blog/types"
 	"strconv"
 )
 

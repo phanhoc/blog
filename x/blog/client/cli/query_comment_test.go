@@ -12,9 +12,9 @@ import (
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
-	"github.com/example/blog/testutil/network"
-	"github.com/example/blog/x/blog/client/cli"
-	"github.com/example/blog/x/blog/types"
+	"github.com/phanhoc/blog/testutil/network"
+	"github.com/phanhoc/blog/x/blog/client/cli"
+	"github.com/phanhoc/blog/x/blog/types"
 )
 
 func networkWithCommentObjects(t *testing.T, n int) (*network.Network, []*types.Comment) {

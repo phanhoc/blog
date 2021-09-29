@@ -1,4 +1,4 @@
-module github.com/example/blog
+module github.com/phanhoc/blog
 
 go 1.16
 

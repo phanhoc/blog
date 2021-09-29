@@ -18,9 +18,9 @@ import (
 	cdctypes "github.com/cosmos/cosmos-sdk/codec/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/cosmos/cosmos-sdk/types/module"
-	"github.com/example/blog/x/blog/client/cli"
-	"github.com/example/blog/x/blog/keeper"
-	"github.com/example/blog/x/blog/types"
+	"github.com/phanhoc/blog/x/blog/client/cli"
+	"github.com/phanhoc/blog/x/blog/keeper"
+	"github.com/phanhoc/blog/x/blog/types"
 	// this line is used by starport scaffolding # ibc/module/import
 )
 

@@ -80,13 +80,13 @@ import (
 	upgradeclient "github.com/cosmos/cosmos-sdk/x/upgrade/client"
 	upgradekeeper "github.com/cosmos/cosmos-sdk/x/upgrade/keeper"
 	upgradetypes "github.com/cosmos/cosmos-sdk/x/upgrade/types"
-	"github.com/example/blog/docs"
+	"github.com/phanhoc/blog/docs"
 	tmjson "github.com/tendermint/tendermint/libs/json"
 	tmproto "github.com/tendermint/tendermint/proto/tendermint/types"
 	// this line is used by starport scaffolding # stargate/app/moduleImport
-	blogmodule "github.com/example/blog/x/blog"
-	blogmodulekeeper "github.com/example/blog/x/blog/keeper"
-	blogmoduletypes "github.com/example/blog/x/blog/types"
+	blogmodule "github.com/phanhoc/blog/x/blog"
+	blogmodulekeeper "github.com/phanhoc/blog/x/blog/keeper"
+	blogmoduletypes "github.com/phanhoc/blog/x/blog/types"
 
 	"github.com/tendermint/spm/cosmoscmd"
 )
